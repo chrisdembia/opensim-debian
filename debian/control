@@ -5,9 +5,7 @@ Priority: extra
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9),
                cmake,
-               doxygen,
-               libsimbody4.0-dev,
-               swig
+               doxygen
 Vcs-Browser: https://github.com/opensim-org/opensim-core
 Vcs-Git: git://github.com/opensim-org/opensim-core.git
 Homepage: https://opensim.stanford.edu

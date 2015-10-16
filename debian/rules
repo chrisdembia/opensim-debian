@@ -6,8 +6,10 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	    -DCMAKE_INSTALL_PREFIX:PATH:/usr \
-	    -DCMAKE_BUILD_TYPE:STRING:RelWithDebInfo
+	    -DCMAKE_INSTALL_PREFIX:PATH=/usr \
+	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo \
+	    -DBUILD_API_ONLY=ON \
+	    -DOPENSIM_COPY_SIMBODY=OFF
 
 override_dh_auto_install:
 	dh_auto_install --buildsystem=cmake
