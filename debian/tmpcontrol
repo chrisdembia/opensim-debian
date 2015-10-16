@@ -42,20 +42,6 @@ Description: OpenSim musculoskeletal modeling/simulation - development files
  This package contains development files (headers and shared library
  symbolic links)
 
-Package: libopensim4.0-dbg
-Architecture: any
-Section: debug
-Depends: libopensim4.0 (= ${binary:Version}),
-         ${misc:Depends}
-Multi-Arch: foreign
-Description: OpenSim musculoskeletal modeling/simulation - debugging symbols
- OpenSim is a software platform for modeling humans, animals,
- robots, and the environment, and simulating their interaction and movement. 
- The software is used by the musculoskeletal biomechanics research
- community. The core OpenSim libraries are written in C++.
- .
- This package contains the debugging symbols.
-
 Package: opensim4.0
 Architecture: any
 Section: interpreters
